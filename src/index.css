@@ -500,10 +500,11 @@ iframe {
     min-height: 450px;
 }
 #aiboximg{
-    max-width: 90% !important;
+    transform: rotate(158deg);
+    margin-top: 35px;
 }
 .ai-heading{
-    padding-top: 52px;
+    padding-top: 55px;
 }
 
 .service-cards h1 {

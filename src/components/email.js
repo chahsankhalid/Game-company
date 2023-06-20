@@ -3,7 +3,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { BsWhatsapp } from 'react-icons/bs';
 import { HashLink as Link } from 'react-router-hash-link';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Button from 'react-bootstrap/Button';
@@ -119,7 +118,6 @@ const Email = () => {
                                                 <div className='navsocial'>
                                                     <a href="https://www.facebook.com/constantineprandcommunications/" className="">Facebook</a>
                                                     <a href="https://instagram.com/constantinepr?igshid=YmMyMTA2M2Y=" className="">Instagram</a>
-                                                    {/* <a href="" className="">Twitter</a> */}
                                                     <a href="https://www.linkedin.com/company/constantine-pr-communications/" className="">Linkedin</a>
                                                 </div>
                                             </div>
@@ -177,7 +175,6 @@ const Email = () => {
                                                 <div className='navsocialmob'>
                                                 <a href="https://www.facebook.com/constantineprandcommunications/" className="">Facebook</a>
                                                 <a href="https://instagram.com/constantinepr?igshid=YmMyMTA2M2Y=" className="">Instagram</a>
-                                                {/* <a href="" className="">Twitter</a> */}
                                                 <a href="https://www.linkedin.com/company/constantine-pr-communications/" className="">Linkedin</a>
                                             </div>
                                             </div>
@@ -223,16 +220,9 @@ const Email = () => {
                                     <option value={'Digital Marketing'}>Digital Marketing</option>
                                     <option value={'Media Production'}>Media Production</option>
                                 </select>
-                            </div>
-                            <div className="form-group">
-                                <select className="form-control" id="exampleFormControlSelect2" name="select2" onChange={changeHandler}>
-                                    <option value={''}>---Monthly Budget---</option>
-                                    <option value={'Less than $5000'}>Less than $5000</option>
-                                    <option value={'$5000 - $10000'}>$5000 - $10000</option>
-                                    <option value={'$10000 - $50000'} >$10000 - $50000</option>
-                                    <option value={'More than $50000'}>More than $50000</option>
-                                </select>
-                            </div> */}
+                            </div>*/
+                           
+                            }
                                 <button type="submit" className="submitbtnemail">Submit</button>
                             </form>
                         </div>

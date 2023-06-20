@@ -134,7 +134,7 @@ const Services = () => {
               </video> */}
              <div className="serviceimgparent">
                 <img
-                  src={"./assets/images/dabba (1).png"}
+                  src={"./assets/images/Dabba1.png"}
                   className="rotating"
                   id="aiboximg"
                   alt="revolve"

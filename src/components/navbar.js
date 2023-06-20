@@ -171,36 +171,6 @@ const  Navcomponent = () => {
                 />
               </Navbar.Brand>
               <ul className="navul">
-                {/* <li>
-                  <Link
-                    onClick={hidenav}
-                    className="nav-link"
-                    smooth={true}
-                    to="#cardsrow"
-                  >
-                    NEWS
-                  </Link>
-                </li> */}
-                {/* <li>
-                  <Link
-                    onClick={hidenav}
-                    className="nav-link"
-                    smooth={true}
-                    to="#Service"
-                  >
-                    CAREER
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    onClick={hidenav}
-                    className="nav-link"
-                    smooth={true}
-                    to="#clients"
-                  >
-                    PARTNERS
-                  </Link>
-                </li> */}
                 <li>
                   <Link
                     onClick={hidenav}

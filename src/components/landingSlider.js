@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import Typewriter from "typewriter-effect/dist/core";

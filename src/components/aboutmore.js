@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import { BsArrowRight } from "react-icons/bs";
 import Modal from "react-bootstrap/Modal";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import axios from "axios";
 import emailjs from "emailjs-com";
 import $ from "jquery";
@@ -118,7 +118,6 @@ export const Aboutmore = () => {
                   Speak to us
                 </Button>
               </div>
-
               <Modal
                 size="lg"
                 show={lgShow}
